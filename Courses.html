@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechMantra Courses Gallery</title>
+    <style>
+        body {
+            /* Light gray background */
+            background-image: url("https://images.unsplash.com/photo-1490093158370-1a6be674437b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGVjaG5vbG9neSUyMHdoaXRlfGVufDB8fDB8fHww");
+        }
+        
+        .card {
+            transition: transform 0.2s; /* Animation effect */
+            border:  none; /* Remove card border */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+            
+
+        }
+        
+        .card:hover {
+            transform: scale(1.05); /* Scale effect on hover */
+        }
+        
+        .card-img-top {
+            height: 200px; /* Fixed height for images */
+            object-fit: cover; /* Cover the area */
+        }
+        
+        
+    </style>
+</head>
+<body>
+     <!-- Navbar Placeholder -->
+     <div id="navbar-placeholder"></div>
+
+     <script>
+         fetch("./navbar.html")
+         .then(response => response.text())
+         .then(data => {
+           document.getElementById("navbar-placeholder").innerHTML = data;
+         });
+        </script>
+<div class="container mt-6 ">
+    <h1 class="text-center"> <span class="badge text-bg-dark mb-4 ">Avaliable Courses</span></h1>
+    <div class="row g-3">
+    <h2> <span class="badge text-bg-danger">AI</span></h2>
+        
+        <!-- Course Card 1 -->
+        <div class="col-md-3 mb-5">
+            <div class="card">
+                <img src="https://futureskillsprime.in//sites/default/files/2023-11/Link%20Sharing_1200x630_AI%20Applications%20with%20Watson.jpg" class="card-img-top" alt="Course Title 1">
+                <div class="card-body">
+                    <h5 class="card-title"> AI  Using Python</h5>
+                    <p class="card-text">Learn the Fundamentals of Python Concepts & AI Intro</p>
+                    <a href="Price.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Course Card 2 -->
+        <div class="col-md-3 mb-5">
+            <div class="card">
+                <img src="https://www.science.org/do/10.5555/article.2437077/full/ai_feature_image-1710956808020.jpg" class="card-img-top" alt="Course Title 2">
+                <div class="card-body">
+                    <h5 class="card-title">AI Algo's</h5>
+                    <p class="card-text">This Course hepls to Explore AI and it's Algo's</p>
+                    <a href="Price.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Course Card 3 -->
+        <div class="col-md-3 mb-5">
+            <div class="card">
+                <img src="https://miro.medium.com/v2/resize:fit:1400/1*cG6U1qstYDijh9bPL42e-Q.jpeg" class="card-img-top" alt="Course Title 3">
+                <div class="card-body">
+                    <h5 class="card-title"> ML-Begining</h5>
+                    <p class="card-text">This Course helps to Know about ML and it's role in AI</p>
+                    <a href="Price.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Course Card 4 -->
+        <div class="col-md-3 mb-5">
+            <div class="card">
+                <img src="https://cipmnigeria.org.ng/wp-content/uploads/2018/11/HiRes-17.jpg" class="card-img-top" alt="Course Title 4">
+                <div class="card-body">
+                    <h5 class="card-title">Project</h5>
+                    <p class="card-text">Get started with the real time project</p>
+                    <a href="Price.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row g-3">
+    <h2><span class="badge text-bg-danger">Data Science</span></h2>
+        
+    <!-- Course Card 1 -->
+    <div class="col-md-3 mb-5">
+        <div class="card">
+            <img src="https://ciracollege.com/wp-content/uploads/2020/11/How-to-Learn-Python.jpg" class="card-img-top" alt="Course Title 1">
+            <div class="card-body">
+                <h5 class="card-title">Advance Python</h5>
+                <p class="card-text">Learn the EDA and Data Vizuvilization Data WareHouse</p>
+                <a href="Price.html" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Course Card 2 -->
+    <div class="col-md-3 mb-5">
+        <div class="card">
+            <img src="https://i0.wp.com/www.institutedata.com/wp-content/uploads/2023/07/Mastering-machine-learning-unlocking-the-potential-of-advanced-algorithms-for-enhanced-performance-.png?fit=940%2C470&ssl=1" class="card-img-top" alt="Course Title 2">
+            <div class="card-body">
+                <h5 class="card-title">Advamnce ML</h5>
+                <p class="card-text">Learn ML Advance Which used to build Different Models With different Algo's</p>
+                <a href="Price.html" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Course Card 3 -->
+    <div class="col-md-3 mb-5">
+        <div class="card">
+            <img src="https://images.prismic.io/turing/652ebec8fbd9a45bcec81892_Which_Language_Is_Useful_for_NLP_and_Why_62f7833585.webp?auto=format,compress" class="card-img-top" alt="Course Title 3">
+            <div class="card-body">
+                <h5 class="card-title">NLP Fundamentals</h5>
+                <p class="card-text">Explore the NLP and know it's  role in AI, Data Science.</p>
+                <a href="Price.html" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Course Card 4 -->
+    <div class="col-md-3 mb-5">
+        <div class="card">
+            <img src="https://cipmnigeria.org.ng/wp-content/uploads/2018/11/HiRes-17.jpg" class="card-img-top" alt="Course Title 4">
+            <div class="card-body">
+                <h5 class="card-title">Project</h5>
+                <p class="card-text">Get started with Project which Enhance your Hands-on Part</p>
+                <a href="Price.html" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row g-3">
+    <h2><span class="badge text-bg-danger">Web Development</span></h2>
+        
+    <!-- Course Card 1 -->
+    <div class="col-md-3 mb-5">
+        <div class="card">
+            <img src="https://camo.githubusercontent.com/21bb8ae3629c4852404841252c65baa38426e4c0d01a68a0f7e6fd121d4649dc/68747470733a2f2f7777772e69696d2e66722f65636f6c652d7765622f77702d636f6e74656e742f75706c6f6164732f323031372f30312f48544d4c352e6a7067" class="card-img-top" alt="Course Title 1">
+            <div class="card-body">
+                <h5 class="card-title">HTML & CSS</h5>
+                <p class="card-text">Learn the fundamentals of WEB </p>
+                <a href="Price.html" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Course Card 2 -->
+    <div class="col-md-3 mb-5">
+        <div class="card">
+            <img src="https://images.opencollective.com/bootstrap/a892851/background.png" class="card-img-top" alt="Course Title 2">
+            <div class="card-body">
+                <h5 class="card-title">Bootstrap</h5>
+                <p class="card-text">Explore the BootStrap </p>
+                <a href="Price.html" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Course Card 3 -->
+    <div class="col-md-3 mb-5">
+        <div class="card">
+            <img src="https://learnbatta.com/assets/images/javascript/javascript-logo.png" class="card-img-top" alt="Course Title 3">
+            <div class="card-body">
+                <h5 class="card-title">JavaScript</h5>
+                <p class="card-text">Delve into Advacnce Functionality pages with JS</p>
+                <a href="Price.html" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Course Card 4 -->
+    <div class="col-md-3 mb-5">
+        <div class="card">
+            <img src="https://cipmnigeria.org.ng/wp-content/uploads/2018/11/HiRes-17.jpg" class="card-img-top" alt="Course Title 4">
+            <div class="card-body">
+                <h5 class="card-title">BackEnd With Projext</h5>
+                <p class="card-text">Get started with Which Enhance the Hands-on</p>
+                <a href="Price.html" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row g-3">
+    <h2><span class="badge text-bg-danger">Advance Programming Language</span></h2>
+        
+    <!-- Course Card 1 -->
+    <div class="col-md-3 mb-5">
+        <div class="card">
+            <img src="https://www.inapps.net/wp-content/uploads/2022/05/java_logo_640.jpg" class="card-img-top" alt="Course Title 1">
+            <div class="card-body">
+                <h5 class="card-title">Java</h5>
+                <p class="card-text">Learn Java From Scratch</p>
+                <a href="Price.html" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Course Card 2 -->
+    <div class="col-md-3 mb-5">
+        <div class="card">
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230819113602/dsa-by-sandeep-jain.png" class="card-img-top" alt="Course Title 2">
+            <div class="card-body">
+                <h5 class="card-title">DSA</h5>
+                <p class="card-text">Explore the Advance topics in DSA from scratch </p>
+                <a href="Price.html" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Course Card 3 -->
+    <div class="col-md-3 mb-5">
+        <div class="card">
+            <img src="https://www.clicdata.com/wp-content/uploads/2023/03/consolidation.jpg" class="card-img-top" alt="Course Title 3">
+            <div class="card-body">
+                <h5 class="card-title">SQL & DBMS</h5>
+                <p class="card-text">Delve into the World Of DataBase</p>
+                <a href="Price.html" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Course Card 4 -->
+    <div class="col-md-3 mb-5">
+        <div class="card">
+            <img src="https://github.blog/wp-content/uploads/2023/01/1200x640-2.png?fit=1200%2C640" class="card-img-top" alt="Course Title 4">
+            <div class="card-body">
+                <h5 class="card-title">Git</h5>
+                <p class="card-text">Learn Git-commands by doing Various project</p>
+                <a href="Price.html" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+  <!-- Footer Placeholder -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Footer Script to load footer.html -->
+  <script>
+      fetch("./footer.html")
+      .then(response => response.text())
+      .then(data => {
+          document.getElementById("footer-placeholder").innerHTML = data;
+      });
+  </script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+    
+</body>
+</html>
